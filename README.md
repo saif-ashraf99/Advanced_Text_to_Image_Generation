@@ -167,7 +167,6 @@ Advanced_Text_to_Image_Generation/
 - **`scripts/`**: Utility scripts for various tasks.
 - **`requirements.txt`**: Lists all required Python packages.
 - **`README.md`**: This file.
-- **`LICENSE`**: License information for the project.
 
 ## Contributing
 
