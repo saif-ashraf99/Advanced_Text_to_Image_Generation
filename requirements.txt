@@ -1,0 +1,36 @@
+# Core Libraries
+numpy==1.26.4
+pandas==2.2.3
+
+# Deep Learning Libraries
+torch==2.4.1
+transformers==4.45.1
+diffusers==0.30.3  # For Stable Diffusion
+accelerate==0.34.2
+
+# Image Processing
+Pillow==10.3.0
+
+# NLP
+nltk==3.9.1
+
+# MLOps
+mlflow==2.16.2
+
+# Web Application
+streamlit==1.39.0
+
+# Utilities
+tqdm==4.66.5
+
+# Additional
+scipy==1.14.1
+
+#Deployment
+fastapi==0.115.0
+uvicorn==0.31.0
+pydantic==2.9.2
+
+# Dataset
+dataset==3.0.1
+
