@@ -19,7 +19,6 @@
   - [Licensing Considerations](#licensing-considerations)
 - [Project Structure](#project-structure-detailed)
 - [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgments](#acknowledgments)
 
 ---
