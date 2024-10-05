@@ -3,14 +3,19 @@ import torch
 from diffusers import StableDiffusionPipeline
 import os
 
+# Set device
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
+print(f"Using device: {device}")
+
 # Load fine-tuned model
 @st.cache_resource
 def load_model():
-
-    model_path = "outputs/fine_tuned_models/"
-    pipeline = StableDiffusionPipeline.from_pretrained(model_path, torch_dtype=torch.float16)
-    pipeline = pipeline.to("cuda")
-    return pipeline
+    pipe = StableDiffusionPipeline.from_pretrained(
+        "runwayml/stable-diffusion-v1-5", torch_dtype=torch.float16
+    )
+    pipe.to(device)
+    pipe.enable_attention_slicing()
+    return pipe
 
 pipeline = load_model()
 
