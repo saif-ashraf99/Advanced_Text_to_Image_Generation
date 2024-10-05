@@ -1,0 +1,6 @@
+1-) Search for quantized stable diffusion model
+2-) Run the project on the GPU and setup CUDA
+3-) Fine tunnig the model(nice to have)
+4-) Saving the model either the fine tuned or the original
+5-) Deploying the model on MLFlow
+6-) Try with Groq cloud 
